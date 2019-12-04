@@ -1,13 +1,14 @@
-//　正解
+//　間違い
 setTimeout(
     () => {
         console.log('Hello!')
-        setTimeout(
-            () => {
-                console.log('Bye!')
-            },
-            2000
-        )
-    },
+     ｝,
     3000
 )
+
+ setTimeout(
+     () => {
+         comsole.log('Bye!')
+     },
+     2000
+ )
